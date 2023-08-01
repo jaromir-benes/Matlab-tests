@@ -1,4 +1,5 @@
 
+    specsFile = "input-data-validator.csv";
     imo = detectImportOptions(specsFile, "fileType", "delimitedText", "delimiter", ",", "textType", "string");
     imo.VariableTypes(:) = {'string'};
     t = readtable(specsFile, imo);
