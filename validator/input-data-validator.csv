@@ -1,0 +1,5 @@
+﻿variable,group,start-earliest,start-latest,end-earliest,end-latest,empty,missing,fail,,outlier-method,outlier-transform,outlier-sample-start,outlier-sample-end,outlier-test-start,outlier-test-end,outlier-accept,outlier-fail
+,tce_input_ea,,,,,,,error,,,,,,,,,
+,tce_input_ext,,,,,,,error,,,,,,,,,
+,tce_input_hist,,,,,,,error,,,,,,,,,
+,tce_input_weight,,,,,,,error,,,,,,,,,
