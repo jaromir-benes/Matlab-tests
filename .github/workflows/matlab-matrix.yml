@@ -32,3 +32,9 @@ jobs:
         uses: matlab-actions/run-command@v1
         with:
           command: run("validator/readTable")
+          
+      - name: Upload artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: output.txt
+          path: output.txt
